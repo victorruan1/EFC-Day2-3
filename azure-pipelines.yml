@@ -47,7 +47,7 @@ steps:
   displayName: Deploy to Azure App Service
   inputs:
     connectionType: 'PublishProfile'
-    publishProfile: '$(pf.secureFilePath)'          
+    publishProfile: '$(MovieShopVictorR.PublishSettings)'          
     appName: 'MovieShopVictorR'                     
     package: '$(Build.ArtifactStagingDirectory)/**/*.zip'
 
