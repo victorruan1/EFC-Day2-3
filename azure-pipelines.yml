@@ -2,7 +2,7 @@ trigger:
 - main
 
 pool:
-  name: Default   # self-hosted agent
+  name: Default
 
 variables:
   buildConfiguration: 'Release'
@@ -36,16 +36,21 @@ steps:
     arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)'
     zipAfterPublish: true
 
+# download the secure publish profile file
+- task: DownloadSecureFile@1
+  name: pf
+  inputs:
+    secureFile: 'MovieShopVictorR.PublishSettings'  
 
+# deploy using Publish Profile mode
 - task: AzureWebApp@1
   displayName: Deploy to Azure App Service
   inputs:
     connectionType: 'PublishProfile'
-    publishProfilePassword: '$(publishProfileSecret)'  
-    appName: 'MovieShopVictorR'                            
+    publishProfile: '$(pf.secureFilePath)'          
+    appName: 'MovieShopVictorR'                     
     package: '$(Build.ArtifactStagingDirectory)/**/*.zip'
 
-
-# Optional: keep artifact
+# optional
 - publish: $(Build.ArtifactStagingDirectory)
   artifact: drop
