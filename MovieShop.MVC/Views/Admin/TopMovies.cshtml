@@ -1,0 +1,15 @@
+@model IEnumerable<(string Title, int Purchases)>
+<h3>Top Purchased Movies (Demo)</h3>
+<table class="table table-striped">
+    <thead><tr><th>#</th><th>Title</th><th>Purchases</th></tr></thead>
+    <tbody>
+        @{
+            var i = 1;
+            foreach (var row in Model)
+            {
+                <tr><td>@i</td><td>@row.Title</td><td>@row.Purchases</td></tr>;
+                i++;
+            }
+        }
+    </tbody>
+</table>

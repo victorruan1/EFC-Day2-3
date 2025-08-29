@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "1UEk08YThJE=",
+  "success": true,
+  "projectFilePath": "/Users/victorruan/Downloads/EFC Day2&3/MovieShop.ApplicationCore/MovieShop.ApplicationCore.csproj",
+  "expectedPackageFiles": [
+    "/Users/victorruan/.nuget/packages/microsoft.netcore.app.ref/8.0.17/microsoft.netcore.app.ref.8.0.17.nupkg.sha512",
+    "/Users/victorruan/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.17/microsoft.aspnetcore.app.ref.8.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

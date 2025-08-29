@@ -1,0 +1,22 @@
+/* site.css - small starter styles */
+:root {
+  --brand: #0d6efd;
+}
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa;
+}
+.movie-card {
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  padding: 0.5rem;
+}
+.movie-card .title {
+  font-weight: 600;
+  color: var(--brand);
+}
+/* Add project-specific overrides here */

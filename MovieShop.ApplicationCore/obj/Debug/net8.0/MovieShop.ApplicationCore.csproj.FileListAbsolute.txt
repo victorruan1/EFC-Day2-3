@@ -1,0 +1,22 @@
+/Users/victorruan/Downloads/MovieShop.Clean/MovieShop.ApplicationCore/bin/Debug/net8.0/MovieShop.ApplicationCore.deps.json
+/Users/victorruan/Downloads/MovieShop.Clean/MovieShop.ApplicationCore/bin/Debug/net8.0/MovieShop.ApplicationCore.dll
+/Users/victorruan/Downloads/MovieShop.Clean/MovieShop.ApplicationCore/bin/Debug/net8.0/MovieShop.ApplicationCore.pdb
+/Users/victorruan/Downloads/MovieShop.Clean/MovieShop.ApplicationCore/obj/Debug/net8.0/MovieShop.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/victorruan/Downloads/MovieShop.Clean/MovieShop.ApplicationCore/obj/Debug/net8.0/MovieShop.ApplicationCore.AssemblyInfoInputs.cache
+/Users/victorruan/Downloads/MovieShop.Clean/MovieShop.ApplicationCore/obj/Debug/net8.0/MovieShop.ApplicationCore.AssemblyInfo.cs
+/Users/victorruan/Downloads/MovieShop.Clean/MovieShop.ApplicationCore/obj/Debug/net8.0/MovieShop.ApplicationCore.csproj.CoreCompileInputs.cache
+/Users/victorruan/Downloads/MovieShop.Clean/MovieShop.ApplicationCore/obj/Debug/net8.0/MovieShop.ApplicationCore.dll
+/Users/victorruan/Downloads/MovieShop.Clean/MovieShop.ApplicationCore/obj/Debug/net8.0/refint/MovieShop.ApplicationCore.dll
+/Users/victorruan/Downloads/MovieShop.Clean/MovieShop.ApplicationCore/obj/Debug/net8.0/MovieShop.ApplicationCore.pdb
+/Users/victorruan/Downloads/MovieShop.Clean/MovieShop.ApplicationCore/obj/Debug/net8.0/ref/MovieShop.ApplicationCore.dll
+/Users/victorruan/Downloads/EFC Day2&3/MovieShop.ApplicationCore/bin/Debug/net8.0/MovieShop.ApplicationCore.deps.json
+/Users/victorruan/Downloads/EFC Day2&3/MovieShop.ApplicationCore/bin/Debug/net8.0/MovieShop.ApplicationCore.dll
+/Users/victorruan/Downloads/EFC Day2&3/MovieShop.ApplicationCore/bin/Debug/net8.0/MovieShop.ApplicationCore.pdb
+/Users/victorruan/Downloads/EFC Day2&3/MovieShop.ApplicationCore/obj/Debug/net8.0/MovieShop.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/victorruan/Downloads/EFC Day2&3/MovieShop.ApplicationCore/obj/Debug/net8.0/MovieShop.ApplicationCore.AssemblyInfoInputs.cache
+/Users/victorruan/Downloads/EFC Day2&3/MovieShop.ApplicationCore/obj/Debug/net8.0/MovieShop.ApplicationCore.AssemblyInfo.cs
+/Users/victorruan/Downloads/EFC Day2&3/MovieShop.ApplicationCore/obj/Debug/net8.0/MovieShop.ApplicationCore.csproj.CoreCompileInputs.cache
+/Users/victorruan/Downloads/EFC Day2&3/MovieShop.ApplicationCore/obj/Debug/net8.0/MovieShop.ApplicationCore.dll
+/Users/victorruan/Downloads/EFC Day2&3/MovieShop.ApplicationCore/obj/Debug/net8.0/refint/MovieShop.ApplicationCore.dll
+/Users/victorruan/Downloads/EFC Day2&3/MovieShop.ApplicationCore/obj/Debug/net8.0/MovieShop.ApplicationCore.pdb
+/Users/victorruan/Downloads/EFC Day2&3/MovieShop.ApplicationCore/obj/Debug/net8.0/ref/MovieShop.ApplicationCore.dll

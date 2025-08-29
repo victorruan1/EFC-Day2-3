@@ -1,0 +1,13 @@
+@model MovieShop.ApplicationCore.Models.CastDetailsModel
+
+<h3>@Model.Name</h3>
+<p>
+    <img src="@(string.IsNullOrWhiteSpace(Model.ProfilePath) ? "/images/default-cast.png" : Model.ProfilePath)" alt="@Model.Name" style="width:100px;height:100px;object-fit:cover;border-radius:50%" />
+</p>
+<h4>Movies</h4>
+<ul>
+@foreach(var m in Model.Movies)
+{
+    <li><a asp-controller="Movies" asp-action="Details" asp-route-id="@m.MovieId">@m.Title</a></li>
+}
+</ul>

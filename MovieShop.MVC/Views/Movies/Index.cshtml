@@ -1,0 +1,12 @@
+@model IEnumerable<MovieCardModel>
+@{
+    var genres = (IEnumerable<string>)ViewBag.Genres;
+}
+<h3 class="mb-3">Browse Movies</h3>
+
+<div class="grid">
+@foreach (var m in Model)
+{
+    @await Html.PartialAsync("~/Views/Shared/_MovieCard.cshtml", m)
+}
+</div>

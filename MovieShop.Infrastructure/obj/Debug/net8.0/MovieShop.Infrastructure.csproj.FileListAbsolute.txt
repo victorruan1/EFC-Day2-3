@@ -1,0 +1,30 @@
+/Users/victorruan/Downloads/MovieShop.Clean/MovieShop.Infrastructure/obj/Debug/net8.0/MovieShop.Infrastructure.csproj.AssemblyReference.cache
+/Users/victorruan/Downloads/MovieShop.Clean/MovieShop.Infrastructure/obj/Debug/net8.0/MovieShop.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/victorruan/Downloads/MovieShop.Clean/MovieShop.Infrastructure/obj/Debug/net8.0/MovieShop.Infrastructure.AssemblyInfoInputs.cache
+/Users/victorruan/Downloads/MovieShop.Clean/MovieShop.Infrastructure/obj/Debug/net8.0/MovieShop.Infrastructure.AssemblyInfo.cs
+/Users/victorruan/Downloads/MovieShop.Clean/MovieShop.Infrastructure/obj/Debug/net8.0/MovieShop.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/victorruan/Downloads/MovieShop.Clean/MovieShop.Infrastructure/bin/Debug/net8.0/MovieShop.Infrastructure.deps.json
+/Users/victorruan/Downloads/MovieShop.Clean/MovieShop.Infrastructure/bin/Debug/net8.0/MovieShop.Infrastructure.dll
+/Users/victorruan/Downloads/MovieShop.Clean/MovieShop.Infrastructure/bin/Debug/net8.0/MovieShop.Infrastructure.pdb
+/Users/victorruan/Downloads/MovieShop.Clean/MovieShop.Infrastructure/bin/Debug/net8.0/MovieShop.ApplicationCore.dll
+/Users/victorruan/Downloads/MovieShop.Clean/MovieShop.Infrastructure/bin/Debug/net8.0/MovieShop.ApplicationCore.pdb
+/Users/victorruan/Downloads/MovieShop.Clean/MovieShop.Infrastructure/obj/Debug/net8.0/MovieSho.4342F073.Up2Date
+/Users/victorruan/Downloads/MovieShop.Clean/MovieShop.Infrastructure/obj/Debug/net8.0/MovieShop.Infrastructure.dll
+/Users/victorruan/Downloads/MovieShop.Clean/MovieShop.Infrastructure/obj/Debug/net8.0/refint/MovieShop.Infrastructure.dll
+/Users/victorruan/Downloads/MovieShop.Clean/MovieShop.Infrastructure/obj/Debug/net8.0/MovieShop.Infrastructure.pdb
+/Users/victorruan/Downloads/MovieShop.Clean/MovieShop.Infrastructure/obj/Debug/net8.0/ref/MovieShop.Infrastructure.dll
+/Users/victorruan/Downloads/EFC Day2&3/MovieShop.Infrastructure/bin/Debug/net8.0/MovieShop.Infrastructure.deps.json
+/Users/victorruan/Downloads/EFC Day2&3/MovieShop.Infrastructure/bin/Debug/net8.0/MovieShop.Infrastructure.dll
+/Users/victorruan/Downloads/EFC Day2&3/MovieShop.Infrastructure/bin/Debug/net8.0/MovieShop.Infrastructure.pdb
+/Users/victorruan/Downloads/EFC Day2&3/MovieShop.Infrastructure/bin/Debug/net8.0/MovieShop.ApplicationCore.dll
+/Users/victorruan/Downloads/EFC Day2&3/MovieShop.Infrastructure/bin/Debug/net8.0/MovieShop.ApplicationCore.pdb
+/Users/victorruan/Downloads/EFC Day2&3/MovieShop.Infrastructure/obj/Debug/net8.0/MovieShop.Infrastructure.csproj.AssemblyReference.cache
+/Users/victorruan/Downloads/EFC Day2&3/MovieShop.Infrastructure/obj/Debug/net8.0/MovieShop.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/victorruan/Downloads/EFC Day2&3/MovieShop.Infrastructure/obj/Debug/net8.0/MovieShop.Infrastructure.AssemblyInfoInputs.cache
+/Users/victorruan/Downloads/EFC Day2&3/MovieShop.Infrastructure/obj/Debug/net8.0/MovieShop.Infrastructure.AssemblyInfo.cs
+/Users/victorruan/Downloads/EFC Day2&3/MovieShop.Infrastructure/obj/Debug/net8.0/MovieShop.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/victorruan/Downloads/EFC Day2&3/MovieShop.Infrastructure/obj/Debug/net8.0/MovieSho.4342F073.Up2Date
+/Users/victorruan/Downloads/EFC Day2&3/MovieShop.Infrastructure/obj/Debug/net8.0/MovieShop.Infrastructure.dll
+/Users/victorruan/Downloads/EFC Day2&3/MovieShop.Infrastructure/obj/Debug/net8.0/refint/MovieShop.Infrastructure.dll
+/Users/victorruan/Downloads/EFC Day2&3/MovieShop.Infrastructure/obj/Debug/net8.0/MovieShop.Infrastructure.pdb
+/Users/victorruan/Downloads/EFC Day2&3/MovieShop.Infrastructure/obj/Debug/net8.0/ref/MovieShop.Infrastructure.dll

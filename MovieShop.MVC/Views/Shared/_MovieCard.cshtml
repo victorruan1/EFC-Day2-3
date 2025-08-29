@@ -1,0 +1,6 @@
+@model MovieShop.ApplicationCore.Models.MovieCardModel
+<a href="/Movies/Details/@Model.Id" class="text-decoration-none text-reset" aria-label="Open details for @Model.Title">
+    <div class="card poster">
+        <img class="card-img-top" src="@Model.PosterUrl" alt="@Model.Title" />
+    </div>
+</a>
