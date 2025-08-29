@@ -11,44 +11,48 @@ steps:
 - task: DotNetCoreCLI@2
   displayName: Restore
   inputs:
-    command: 'restore'
+    command: restore
     projects: '**/*.csproj'
 
 - task: DotNetCoreCLI@2
   displayName: Build
   inputs:
-    command: 'build'
+    command: build
     projects: '**/*.csproj'
     arguments: '--configuration $(buildConfiguration)'
 
 - task: DotNetCoreCLI@2
   displayName: Test
   inputs:
-    command: 'test'
+    command: test
     projects: '**/*Tests/*.csproj'
     arguments: '--configuration $(buildConfiguration)'
 
 - task: DotNetCoreCLI@2
   displayName: Publish
   inputs:
-    command: 'publish'
+    command: publish
     publishWebProjects: true
     arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)'
     zipAfterPublish: true
 
-# download the secure publish profile file
+# 👇 downloads the secure file to the agent and exposes pf.secureFilePath
 - task: DownloadSecureFile@1
   name: pf
   inputs:
-    secureFile: 'MovieShopVictorR.PublishSettings'  
+    secureFile: 'MovieShopVictorR.PublishSettings'   # <-- exact name in Secure files
 
-# deploy using Publish Profile mode
+- script: |
+    echo "Publish dir: $(Build.ArtifactStagingDirectory)"
+    ls -la $(Build.ArtifactStagingDirectory)
+  displayName: 'List publish output (debug)'
+
 - task: AzureWebApp@1
   displayName: Deploy to Azure App Service
   inputs:
     connectionType: 'PublishProfile'
-    publishProfile: '$(MovieShopVictorR.PublishSettings)'          
-    appName: 'MovieShopVictorR'                     
+    publishProfile: '$(pf.secureFilePath)'          
+    appName: 'MovieShopVictorR'                      
     package: '$(Build.ArtifactStagingDirectory)/**/*.zip'
 
 # optional
