@@ -41,8 +41,10 @@ steps:
   displayName: Deploy to Azure App Service
   inputs:
     connectionType: 'PublishProfile'
-    publishProfile: 'Lackyline03!'   
+    publishProfilePassword: '$(publishProfileSecret)'  
+    appName: 'MovieShopVictorR'                            
     package: '$(Build.ArtifactStagingDirectory)/**/*.zip'
+
 
 # Optional: keep artifact
 - publish: $(Build.ArtifactStagingDirectory)
